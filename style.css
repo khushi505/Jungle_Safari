@@ -1,0 +1,27 @@
+@import url(css/navbar.css);
+
+body{
+    /* background-image: url(assets/star_back.jpg); */
+    background-color: black;
+}
+
+/* .mountains{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 100px;
+} */
+/* 
+.mountains img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.mountains .m2{
+    height: 100px;
+    width: 100px;
+}
