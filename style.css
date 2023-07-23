@@ -1,27 +1,65 @@
 @import url(css/navbar.css);
 
 body{
-    /* background-image: url(assets/star_back.jpg); */
-    background-color: black;
+    background-color: white;
+    margin: 0px;
 }
 
-/* .mountains{
+section{
     position: relative;
-    height: 100vh;
-    width: 100%;
-    padding: 100px;
-} */
-/* 
-.mountains img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(18, 92, 137); 
+    margin-top: 100px;
+    margin-bottom: 400px;
+}   
 
-.mountains .m2{
-    height: 100px;
-    width: 100px;
+.time{
+    font-family: poppins;
+}
+
+.adventure{
+    font-size: 90px;
+    font-family: 'Paprika', cursive;
+    /* transform: translateY(100px); */
+}
+
+#btn{
+    text-decoration: none;
+    display:inline-block;
+    background: yellow;
+    color:rgb(18, 92, 137);
+    font-weight: 1000;
+    font-family: poppins;
+    letter-spacing: 2px;
+    border-radius: 17px; 
+    transform: translateY(100px);
+    width: 130px;
+}
+
+.button a:hover{
+    background: rgb(40, 112, 157);
+    color: white;
+}
+
+.para{
+    font-family: poppins;
+    position: relative;
+    background:rgb(13, 87, 133);
+    margin-top: 100px;
+}
+
+.para p{
+    margin: 0px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.para h2{
+    color: white;
+    font-size: 40px;
+    padding: 30px;
 }

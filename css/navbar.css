@@ -1,11 +1,11 @@
-.moon_logo{
-    width: 70px;
+.jungle_logo{
+    width: 72px;
     height: 70px;
     padding: 20px;
 }
 
 .nav_right{
-    color: white;
+    color: rgb(59, 141, 229);
     font-family: poppins;
     display: flex;
     padding-right: 20px;
@@ -21,18 +21,19 @@
     margin-top: 10px;
     margin-bottom: 15px;
     padding: 20px;
+    font-weight: 800;
 }
 
 .nav_right ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(18, 92, 137);
     border-radius: 15px;
     padding: 8px;
 }
 
 .nav_right ul li a:hover{
-    background: white;
-    color: rgb(99, 99, 234);
+    background: rgb(40, 112, 157);
+    color: white;
 }
 
 .navbar{
