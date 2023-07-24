@@ -1,0 +1,29 @@
+.para{
+    font-family: poppins;
+    position: relative;
+    background:rgb(13, 87, 133);
+}
+
+.para p{
+    margin: 0px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.para h2{
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.para::before{
+    content: '';
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(rgb(0, 131, 151),transparent);
+    z-index: 10;
+}
