@@ -31,6 +31,21 @@
         <h2 class="time">
             It's time for a new 
             <div class="adventure">Adventure</div>
+            <div class="bird_1">
+                <img src="assets/bird1.png" alt="" srcset="">
+            </div>
+            <div class="bird_2">
+                <img src="assets/bird2.png" alt="" srcset="">
+            </div>
+            <div class="forest">
+                <img src="assets/forest.png" alt="" srcset="">
+            </div>
+            <div class="rocks">
+                <img src="assets/rocks.png" alt="" srcset="">
+            </div>
+            <div class="water">
+                <img src="assets/water.png" alt="" srcset="">
+            </div>
             <a href="#" id="btn">Explore</a>
         </h2>
     </section> 
@@ -47,5 +62,28 @@
         <br> <br>
         Vestibulum tempor sollicitudin molestie. Aliquam vehicula orci a lectus mollis lacinia. Sed tincidunt, sapien at vulputate lacinia, tortor eros feugiat nulla, hendrerit mattis eros nisl nec metus. Curabitur at nibh in arcu gravida tempor at eu mi.  Etiam facilisis arcu ut nunc tempor laoreet vel a quam. Mauris id neque posuere, maximus nulla sit amet, eleifend diam. Etiam vel erat a felis molestie volutpat. Aliquam facilisis aliquet massa, et euismod nisl euismod non. Pellentesque ac vestibulum tortor, vitae egestas orci. Nulla dignissim sed dolor eget efficitur.</p>
     </div>
+
+    <script>
+        let text = document.getElementById('text');
+        let bird_1 = document.getElementById('bird_1');
+        let bird_2 = document.getElementById('bird_2');
+        let btn = document.getElementById('btn');
+        let rocks = document.getElementById('rocks');
+        let forest = document.getElementById('forest');
+        let water = document.getElementById('water');
+        let header = document.getElementById('header');
+
+        window.addEventListener('scroll',function(){
+            let value = window.scrollY;
+
+            text.style.top = 50 + value * -0.5 + '%';
+            bird_1.style.top = value * -1.5 + 'px';
+            bird_1.style.top = value * 2 + 'px';
+            bird_2.style.top = value * -1.5 + 'px';
+            bird_2.style.top = value * 5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            rocks.style.top = value * -0.12 + 'px';
+        })
+    </script>
 </body>
 </html>

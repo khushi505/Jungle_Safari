@@ -3,6 +3,7 @@
 body{
     background-color: white;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 section{
@@ -48,7 +49,6 @@ section{
     font-family: poppins;
     position: relative;
     background:rgb(13, 87, 133);
-    margin-top: 100px;
 }
 
 .para p{
@@ -62,4 +62,29 @@ section{
     color: white;
     font-size: 40px;
     padding: 30px;
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+.water{
+    height: 60px;
+}
+
+.para::before{
+    content: '';
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(rgb(0, 131, 151),transparent);
+    z-index: 10;
 }
